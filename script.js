@@ -62,4 +62,5 @@ document.querySelector(".zero").onclick = ()=>{
 document.querySelector(".equal").onclick = ()=>{
     let exp = eval(prvText);
     document.querySelector(".screen").innerHTML = exp;
+    prvText = exp;
 }
